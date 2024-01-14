@@ -56,7 +56,7 @@ body{
 }
 
 #menu {
-    display:none;
+    display: none;
 }
 
 .menu-icono {
@@ -75,5 +75,5 @@ body{
 .header-txt h1 {
     font-size: 85px;
     color:#FFFDFC;
-    
+
 }
