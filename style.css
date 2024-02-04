@@ -317,3 +317,45 @@ h2 {
     font-size: 16px;
 }
 
+@media(max-width:991px){
+    .menu {
+        padding: 30px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top:100%;
+        left: 0;
+        right: 0;
+        background-color: #1b293a;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+    }
+
+    .header-content{
+        padding: 100px 30px;
+    }
+
+    .header-txt h1 {
+        font-size: 50px;
+    }
+
+    .header-txt p {
+        padding:0;
+    }
+}
