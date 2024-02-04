@@ -113,7 +113,7 @@ body{
     margin-top: 55px;
 }
 
-.general-1 {
+ .general-1 {
     background-image: url(images/r1.png);
     background-position: center center;
     background-repeat: no-repeat;
@@ -165,4 +165,22 @@ body{
     background-size: cover;
     height: 450px;
     padding: 170px 55px;
+} 
+
+h2 {
+    font-size: 70px;
+    text-transform: uppercase;
+    color: #1b293a
+}
+
+.txt h3 {
+    font-size: 18px;
+    color: #FFFDFC;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.txt p {
+    color: #BEBEBE;
+    font-size: 16px;
 }
