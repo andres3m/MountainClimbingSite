@@ -233,3 +233,47 @@ h2 {
     color: #FFFDFC;
     margin-top: 25px;
 }
+
+.info-2 {
+    padding: 250px 0;
+    background-image: url(images/bg3.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.testi {
+    display:flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 35px;
+}
+
+.testi-left {
+    width: 50%;
+    padding-right: 25px;
+}
+
+.testi-right {
+    width: 50%;
+    padding-left: 35px;
+}
+
+.testi-txt {
+    margin-bottom: 25px;
+}
+
+.testi-txt img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.testi-txt h3 {
+    font-size: 20px;
+    color: #FFFDFC;
+}
+
+.testi-txt p {
+    color: #EBEBEB;
+    font-size: 16px;
+}
