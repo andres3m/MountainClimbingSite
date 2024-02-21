@@ -38,9 +38,7 @@ body{
 }
 
 .logo {
-    color:#FFFDFC;
-    font-size: 25px;
-    font-weight: 800;;
+    height: 200px;
 }
 
 .menu .navbar ul li {
@@ -341,6 +339,10 @@ h2 {
 
     #menu:checked ~ .navbar {
         display: initial;
+    }
+
+    .logo {
+        height: 100px;
     }
 
     .header {
